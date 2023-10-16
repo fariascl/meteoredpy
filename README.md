@@ -9,7 +9,7 @@ API_KEY = ''
 clima = meteoredpy(API_KEY).get('conce')
 print(clima)
 '''
-puede entregar 3 resultados:
+puede entregar 4 resultados:
 1. {'ciudad': 'Concepción [Biobío;Chile]', 'maxima': '18', 'error': 0}
 2. {'error': 1, 'msg': NameError("name 'xmltodict' is not defined")}
 3. {'error': 2, 'msg': 'La ciudad no existe'}
