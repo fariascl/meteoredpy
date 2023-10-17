@@ -1,4 +1,3 @@
-# Libreria para consumir y parsear a JSON API de meteored.cl
 import json
 import requests
 import xmltodict
