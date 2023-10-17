@@ -5,8 +5,9 @@ Libreria para consumir y parsear a JSON API de meteored.cl
 Antes de comenzar, es necesario registrarse en la página de [meteored.cl](https://www.meteored.cl/api/#/registro) para así obtener una _affiliate_id__(API KEY).
 
 ``` python
+from meteoredpy import Meteoredpy
 API_KEY = ''
-clima = meteoredpy(API_KEY).get('conce')
+clima = Meteoredpy(API_KEY).get('conce')
 print(clima)
 '''
 puede entregar 4 resultados:
